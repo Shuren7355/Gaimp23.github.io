@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donate Us</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #5B4636; /* Dark Coffee color */
+  color: #FFF; /* White text color for better readability */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: #8D6A51; /* Light Coffee color */
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 17px;
+  aspect-ratio: 16 / 9; /* Set aspect ratio to 16:9 (adjust as needed) */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.card p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.iframe-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  border: navajowhite;
+  border-radius: 20px;
+  opacity: 1.5;
+  transform: scale(1.5);
+  transition: opacity 0.5s, transform 0.5s;
+  border-radius: 20px;
+}
+
+.iframe:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Mobile-friendly styles */
+@media screen and (max-width: 967px) {
+  .container {
+    padding: 9px;
+  }
+}
+
+/* Larger screen styles */
+@media screen and (min-width: 968px) {
+  .container {
+    max-width: 1200px; /* Adjust as needed for larger screens */
+  }
+}
+
+/* Optional: Adjust other styles for larger screens */
+@media screen and (min-width: 1200px) {
+  .card {
+    padding: 30px; /* Adjust padding for larger screens */
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-content">
+        <h1><big><strong>Donate Us</strong></big></h1>
+        <p>If you find this website helpful or just want to show your appreciation, consider buying me a coffee.
+          Donations help me keep this site running and motivate me to create more content. Your support means a lot!</p>
+        <p>Scan the QR code below to donate:</p>
+      </div>
+      <div class="iframe-wrapper">
+        <img class="iframe" src="ByMeACoffeQR.png" alt="QR Code" />
+      </div>
+      <div class="card-content">
+        <h1>Frequently Asked Questions:</h1>
+        <p><h2><strong>What is the range of donation?</strong></h2>
+        You can donate any amount you want. Every contribution, no matter how small, is deeply appreciated.</p>
+        <p><h2><strong>Do I need to donate more than one rupee?</strong></h2>
+        No, you can donate any amount, even as little as one rupee. Every bit counts and makes a difference!</p>
+        <p><h2><strong>How will my donation be used?</strong></h2>
+        Your donation will go towards supporting the maintenance and improvement of this website, and it will motivate me
+          to continue creating valuable content.</p>
+      </div>
+    </div>
+  </div>
+   <div style="position: fixed; bottom: 10px; right: 10px; transition: transform 2s ease;">
+    <a href="index2.html">
+      <img src="https://www.svgrepo.com/show/22031/home-icon-silhouette.svg" alt="Coffee Cup Icon" width="40" height="40">
+    </a>
+  </div>
+</body>
+
+</html>
